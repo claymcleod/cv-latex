@@ -11,8 +11,14 @@ university:
     degrees:
       - title: M. S. Computer Science
         date: May 2016
+        description:
+          - "Major GPA - 4.0/4.0, Overall GPA - 3.88/4.0"
+          - "Financed my college education through assistantships and scholarships."
       - title: B. S. Electrical Engineering (emphasis in Computer Engineering)
         date: May 2014
+        description:
+          - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
+          - "Graduate of the Sally McDonald Barksdale Honors College"
 research_interests: Applying machine learning practically to real world problems. Currently focusing on deep neural networks and disributed machine learning.
 professional:
   - company: CM Technology, LLC

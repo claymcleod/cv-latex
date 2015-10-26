@@ -2,6 +2,8 @@
 \usepackage{multicol}
 \usepackage{hyperref}
 
+\topmargin -0.5in
+\textheight 10in
 \oddsidemargin -0.5in
 \evensidemargin -0.5in
 \textwidth=6.0in
@@ -38,6 +40,15 @@ $for(university)$
 \begin{list1}
 $for(university.degrees)$
 \item[] $university.degrees.title$ \hfill {\bf $university.degrees.date$}
+$if(university.degrees.description)$
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{-0.5mm}
+$for(university.degrees.description)$
+\item $university.degrees.description$
+$endfor$
+\end{itemize}
+$endif$
 $endfor$
 \end{list1}
 $endfor$
