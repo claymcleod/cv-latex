@@ -1,0 +1,67 @@
+\documentclass[margin,line]{res}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\oddsidemargin -0.5in
+\evensidemargin -0.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\hypersetup{colorlinks,urlcolor=blue}
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+
+\begin{document}
+\name{Clay McLeod}
+\begin{resume}
+\section{\sc Contact Information}
+\begin{tabular}{@{}p{2in}p{4in}}
+$address-one$ & {\it Phone:} $phone$ \\
+$address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
+& {\it Webpage:} \href{http://$webpage$}{$webpage$} \\
+\end{tabular}
+
+$if(research_interests)$
+\section{\sc Research Interests}
+$research_interests$
+$endif$
+
+\section{\sc Education}
+$for(university)$
+{\bf $university.name$}, $university.location$\\
+\vspace*{-.1in}
+\begin{list1}
+$for(university.degrees)$
+\item[] $university.degrees.title$ \hfill {\bf $university.degrees.date$}
+$endfor$
+\end{list1}
+$endfor$
+
+\section{\sc Professional Experience}
+
+$for(professional)$
+{\bf $professional.company$ } - $professional.location$\\
+$for(professional.positions)$
+{\em $professional.positions.title$} \hfill {\bf $professional.positions.dates$}\\
+\vspace{-3mm}
+\begin{itemize}
+\setlength\itemsep{-0.5mm}
+$for(professional.positions.description)$
+\item $professional.positions.description$
+$endfor$
+\end{itemize}
+\vspace{-3mm}
+$endfor$
+$endfor$
+
+\section{\sc Relevant Skills}
+
+$skills$
+
+\end{resume}
+\end{document}

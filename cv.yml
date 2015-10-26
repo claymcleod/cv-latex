@@ -1,0 +1,67 @@
+---
+name: Clay McLeod
+address-one: Address removed
+address-two: for online version
+phone: Removed for online version
+email: clay.l.mcleod@gmail.com
+webpage: claymcleod.github.io
+university:
+  - name: University of Mississippi
+    location: University, MS
+    degrees:
+      - title: M. S. Computer Science
+        date: May 2016
+      - title: B. S. Electrical Engineering (emphasis in Computer Engineering)
+        date: May 2014
+research_interests: Applying machine learning practically to real world problems. Currently focusing on deep neural networks and disributed machine learning.
+professional:
+  - company: CM Technology, LLC
+    location: Memphis, TN
+    positions:
+      - title: Co-Founder and Vice President
+        dates: January 2015 - Present
+        description:
+          - Sole electrical and software engineer for a company focused on providing technological innovation to the construction industry.
+          - Complete native mobile app on iPhone (Swift), website and server written on the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
+          - Created proprietary microelectronic device to compliment software solution.
+  - company: FedEx Services
+    location: Memphis, TN
+    positions:
+      - title: Software Analyst Intern
+        dates: Summer 2015
+        description:
+          - Built a native, internal mobile application for iOS (Swift) and Android (Java).
+          - Created a scalable backend server with NodeJS, ExpressJS, and MongoDB.
+          - Created a proprietary machine learning server/path optimization server written in Python with open-source tools such as scikit-learn and pandas.
+          - Recipient of the FedEx Technical Mastery award (x2) and the Director’s Choice Award for best project. Employee choice award for 2015 best intern project.
+  - company: University of Mississippi
+    location: University, MS
+    positions:
+      - title: Head Teacher’s Assistant
+        dates: Fall 2014 - Present
+        description:
+          - Full time assistantship that financed Master’s degree.
+          - Hired and managed 30 teacher’s assistants. Coordinated lab times programming classes.
+          - Managed 400 student’s lab grades throughout the year.
+      - title: Research Assistant (Biometric security)
+        dates: October 2013 - Present
+        description:
+          - Developed a new kind of biometric authentication system for mobile security using machine learning, exponentially decreasing the likelihood of a successful attack on the system.
+          - Currently pursuing patent for this software.
+      - title: Research Assistant (Facial Recognition)
+        dates: Spring 2011 - Fall 2012
+        description:
+          - Researched and wrote platform independent facial recognition software.
+          - Skills learned include proficiency in the C and JavaScript languages, knowledge of the WebGL pipeline, and specialized implementation of the OpenGL Shading Language.
+  - company: Logical Systems, LLC.
+    location: Memphis, TN
+    positions:
+      - title: Electrical Engineering Intern
+        dates: Summer 2014
+        description:
+          - Fabricated multiple electrical control panels for a wide range of applications.
+          - Assisted engineers with control automation design in AutoCAD.
+
+skills:
+  -  Artificial Intelligence, Machine Learning, Data Mining, NodeJS, ExpressJS, MongoDB, AngularJS, SocketIO Redis, Python, R, Data Science, Web Design, Java, Javascript, Project Management, Docker, CoreOS.
+---
