@@ -17,6 +17,8 @@
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\def\tightlist{}
+
 
 \begin{document}
 \name{Clay McLeod}
