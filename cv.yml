@@ -1,8 +1,8 @@
 ---
 name: Clay McLeod
-address-one: Address removed
-address-two: for online version
-phone: Removed for online version
+address-one: Address removed for online version 
+address-two: Address removed for online version
+phone: Phone removed for online version
 email: clay.l.mcleod@gmail.com
 webpage: www.claymcleod.io
 university:
@@ -19,7 +19,7 @@ university:
         description:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
           - "Graduate of the Sally McDonald Barksdale Honors College"
-research_interests: Applying machine learning practically to real world problems. Currently focusing on deep neural networks and distributed machine learning.
+research_interests: Applying practical data science to real world problems. Currently focusing on deep neural networks and distributed machine learning.
 professional:
   - company: CM Technology, LLC
     location: Memphis, TN
