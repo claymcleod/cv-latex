@@ -1,8 +1,8 @@
 ---
 name: Clay McLeod
-address-one: Address removed for online version 
-address-two: Address removed for online version
-phone: Phone removed for online version
+address-one: Removed online. 
+address-two: Removed online.
+phone: Removed online. 
 email: clay.l.mcleod@gmail.com
 webpage: www.claymcleod.io
 university:
@@ -69,5 +69,5 @@ professional:
           - Assisted engineers with control automation design in AutoCAD.
 
 skills:
-  -  Artificial Intelligence, Machine Learning, Data Mining, NodeJS, ExpressJS, MongoDB, AngularJS, SocketIO Redis, Python, R, Data Science, Web Design, Java, Javascript, Project Management, Docker, CoreOS.
+  -  Machine Learning, Data Mining, Data Science, Statistical Modeling, Artificial Intelligence, Python 2/3, R, NodeJS, Java, Javascript, C++, C, MEAN stack, Web Development, iOS/Android Development.
 ---
