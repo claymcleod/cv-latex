@@ -1,8 +1,8 @@
 ---
 name: Clay McLeod
-address-one: Removed online. 
+address-one: Removed online.
 address-two: Removed online.
-phone: Removed online. 
+phone: Removed online.
 email: clay.l.mcleod@gmail.com
 webpage: www.claymcleod.io
 university:
@@ -12,7 +12,7 @@ university:
       - title: M. S. Computer Science
         date: May 2016
         description:
-          - "Major GPA - 4.0/4.0, Overall GPA - 3.92/4.0"
+          - "Master's GPA - 4.0/4.0"
           - "Financed my college education through assistantships and scholarships."
       - title: B. S. Electrical Engineering (emphasis in Computer Engineering)
         date: May 2014
@@ -67,6 +67,26 @@ professional:
         description:
           - Fabricated multiple electrical control panels for a wide range of applications.
           - Assisted engineers with control automation design in AutoCAD.
+honors:
+  university:
+    - Full graduate assistantship
+    - Adler Engineering Scholarship (4x)
+    - Academic Excellence Scholarship (4x)
+    - Chancellor's Honor Roll (4x)
+    - Upsilon Pi Epsilon (Computer Science Honor Society)
+    - Pi Mu Epsilon (Mathematics Honor Society)
+    - Gamma Beta Phi (National Academic Honor Society)
+    - Sigma Alpha Lambda (National Academic Honor Society)
+    - National Society for Collegiate Scholars
+    - Graduated Cum Laude (undergraduate)
+  career:
+    - FedEx Technical Mastery award (x2)
+    - FedEx Director’s Choice Award for best project
+    - FedEx Employee choice award for 2015 best intern project
+  misc:
+    - Sally McDonald Barksdale Honors College member
+    - Alpha Tau Omega Philanthropy Chairman, Alumni Relations, \newline Leadership, Scholarship, and Membership Education Committees
+    - Voted top 5 fraternity leaders
 
 skills:
   -  Machine Learning, Data Mining, Data Science, Statistical Modeling, Artificial Intelligence, Python 2/3, R, NodeJS, Java, Javascript, C++, C, MEAN stack, Web Development, iOS/Android Development.

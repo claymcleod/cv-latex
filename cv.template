@@ -1,6 +1,7 @@
 \documentclass[margin,line]{res}
 \usepackage{multicol}
 \usepackage{hyperref}
+\usepackage{enumitem}
 
 \topmargin -0.5in
 \textheight 10in
@@ -75,6 +76,32 @@ $endfor$
 \section{\sc Relevant Skills}
 
 $skills$
+
+\section{\sc Honors and Awards}
+
+\begin{itemize}
+\setlength\itemsep{-0.5mm}
+\item University-related
+\begin{itemize}
+$for(honors.university)$
+\item[$$\circ$$] $honors.university$
+$endfor$
+\end{itemize}
+
+\item Career-related
+\begin{itemize}
+$for(honors.career)$
+\item[$$\circ$$] $honors.career$
+$endfor$
+\end{itemize}
+
+\item Miscellaneous
+\begin{itemize}
+$for(honors.misc)$
+\item[$$\circ$$] $honors.misc$
+$endfor$
+\end{itemize}
+\end{itemize}
 
 \end{resume}
 \end{document}
