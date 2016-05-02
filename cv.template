@@ -28,7 +28,7 @@
 \begin{tabular}{@{}p{2in}p{4in}}
 $address-one$ & {\it Phone:} $phone$ \\
 $address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
-& {\it Webpage:} \href{http://$webpage$}{$webpage$} \\
+& {\it Technical Blog:} \href{http://$webpage$}{$webpage$} \\
 \end{tabular}
 
 $if(research_interests)$
@@ -50,12 +50,16 @@ $if(university.degrees.description)$
 $for(university.degrees.description)$
 \item $university.degrees.description$
 $endfor$
+$if(university.degrees.thesis)$
+\item \textbf{Thesis:} ``\textit{$university.degrees.thesis$}"
+$endif$
 \end{itemize}
 $endif$
 $endfor$
 \end{list1}
 $endfor$
 
+\vspace{-5mm}
 \section{\sc Professional Experience}
 
 $for(professional)$

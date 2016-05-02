@@ -1,10 +1,10 @@
 ---
 name: Clay McLeod
-address-one: Removed online.
-address-two: Removed online.
-phone: Removed online.
+address-one: Address Removed
+address-two: Address Removed
+phone: Phone Removed
 email: clay.l.mcleod@gmail.com
-webpage: www.claymcleod.io
+webpage: blog.claymcleod.io
 university:
   - name: University of Mississippi
     location: University, MS
@@ -14,22 +14,15 @@ university:
         description:
           - "Master's GPA - 4.0/4.0"
           - "Financed my college education through assistantships and scholarships."
+        thesis: "The Effect of Hyperparameters in the Activation Layers of Deep Neural Networks."
       - title: B. S. Electrical Engineering (emphasis in Computer Engineering)
         date: May 2014
         description:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
           - "Graduate of the Sally McDonald Barksdale Honors College"
-research_interests: Applying practical data science to real world problems. Currently focusing on deep neural networks and distributed machine learning.
+        thesis: "Biometric Authentication, Dynamic Feature Extraction, and User Classification using TouchAnalytics"
+research_interests: "Application of machine learning to challenging problems."
 professional:
-  - company: CM Technology, LLC
-    location: Memphis, TN
-    positions:
-      - title: Co-Founder and Vice President
-        dates: January 2015 - Present
-        description:
-          - Sole electrical and software engineer for a company focused on providing technological innovation to the construction industry.
-          - Complete native mobile app on iPhone (Swift), website and server written on the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
-          - Created proprietary microelectronic device to compliment software solution.
   - company: FedEx Services
     location: Memphis, TN
     positions:
@@ -40,6 +33,15 @@ professional:
           - Created a scalable backend server with NodeJS, ExpressJS, and MongoDB.
           - Created a proprietary machine learning server/path optimization server written in Python with open-source tools such as scikit-learn and pandas.
           - Recipient of the FedEx Technical Mastery award (x2) and the Director’s Choice Award for best project. Employee choice award for 2015 best intern project.
+  - company: Cooper-McLeod Technology, LLC
+    location: Memphis, TN
+    positions:
+      - title: Co-Founder and Vice President
+        dates: January 2015 - Present
+        description:
+          - Sole electrical and software engineer for a company focused on providing technological innovation to the construction industry.
+          - Complete native mobile app on iPhone (Swift), website and server written on the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
+          - Created proprietary microelectronic device to compliment software solution.
   - company: University of Mississippi
     location: University, MS
     positions:
@@ -92,5 +94,5 @@ honors:
     - Voted top 5 fraternity leaders
 
 skills:
-  -  Machine Learning, Data Mining, Data Science, Statistical Modeling, Artificial Intelligence, Python 2/3, R, NodeJS, Java, Javascript, C++, C#, C, MEAN stack, Web Development, iOS/Android Development.
+  -  Machine Learning, Data Mining, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Python 2/3, R, NodeJS, Java, Javascript, C++, C#, C, MEAN stack, Web Development, iOS/Android Development.
 ---
