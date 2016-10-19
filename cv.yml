@@ -1,6 +1,6 @@
 ---
 name: Clay McLeod
-address-one: Address Removed
+address-one: Address Removed 
 address-two: Address Removed
 phone: Phone Removed
 email: clay.l.mcleod@gmail.com
@@ -23,6 +23,15 @@ university:
         thesis: "Biometric Authentication, Dynamic Feature Extraction, and User Classification using TouchAnalytics"
 research_interests: "Application of machine learning to challenging problems."
 professional:
+  - company: St. Jude Children's Research Hospital.
+    location: Memphis, TN
+    positions:
+      - title: Senior Software Engineer 
+        dates: June 2016 - Present
+        description:
+          - Lead developer for the "St. Jude Cloud" project, a corporate-wide initiative to make St. Jude's tools available to the world.
+          - Colloborated with expert biologists to harness advanced machine learning/data science techniques to a variety of genomic analysis problems (GWAS, MCMC, Deep Learning, Artificial Intelligence).
+		  - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
   - company: FedEx Services
     location: Memphis, TN
     positions:
@@ -61,14 +70,6 @@ professional:
         description:
           - Researched and wrote platform independent facial recognition software.
           - Skills learned include proficiency in the C and JavaScript languages, knowledge of the WebGL pipeline, and specialized implementation of the OpenGL Shading Language.
-  - company: Logical Systems, LLC.
-    location: Memphis, TN
-    positions:
-      - title: Electrical Engineering Intern
-        dates: Summer 2014
-        description:
-          - Fabricated multiple electrical control panels for a wide range of applications.
-          - Assisted engineers with control automation design in AutoCAD.
 honors:
   university:
     - Full-time Graduate Assistantship
@@ -94,5 +95,5 @@ honors:
     - Voted top 5 fraternity leaders
 
 skills:
-  -  Machine Learning, Data Mining, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Python 2/3, R, NodeJS, Java, Javascript, C++, C#, C, MEAN stack, Web Development, iOS/Android Development.
+  -  Machine Learning, Data Mining, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Containerization (Docker, Vagrant), Python 2/3, R, NodeJS, Java, Javascript, C++, C#, C, MEAN stack, Web Development, iOS/Android Development.
 ---
