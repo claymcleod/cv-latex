@@ -1,8 +1,8 @@
 ---
 name: Clay McLeod
-address-one: Address Removed 
-address-two: Address Removed
-phone: Phone Removed
+address-one: Redacted.
+address-two: Redacted.
+phone: Redacted.
 email: clay.l.mcleod@gmail.com
 webpage: blog.claymcleod.io
 university:
@@ -36,7 +36,7 @@ professional:
     location: Palo Alto, CA (remote)
     positions:
       - title: Software Consultant
-        dates: May 2017 - August 2017
+        dates: Jan 2016 - May 2016
         description:
           - Consultant for both mobile development (iOS) and server-side development (NodeJS).
           - Established infrastructure for the company in AWS (previously non-existant).
@@ -62,14 +62,14 @@ professional:
   - company: University of Mississippi
     location: University, MS
     positions:
-      - title: Head Teacher’s Assistant
-        dates: Fall 2014 - Present
+      - title: Teacher's Assistant/Head Teacher’s Assistant
+        dates: Fall 2014 - Spring 2016
         description:
           - Full time assistantship that financed Master’s degree.
           - Hired and managed 30 teacher’s assistants.
           - Managed 400 student’s lab grades throughout the year.
-      - title: Research Assistant (Biometric security)
-        dates: October 2013 - Present
+      - title: Research Assistant 
+        dates: Fall 2013 - Spring 2014
         description:
           - Developed a new kind of biometric authentication system for mobile security using machine learning, exponentially decreasing the likelihood of a successful attack on the system.
 honors:
