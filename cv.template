@@ -31,9 +31,11 @@ $address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
 & {\it Technical Blog:} \href{http://$webpage$}{$webpage$} \\
 \end{tabular}
 
+$if(include_research_interests)$
 $if(research_interests)$
 \section{\sc Research Interests}
 $research_interests$
+$endif$
 $endif$
 
 \section{\sc Education}

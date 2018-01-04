@@ -21,6 +21,7 @@ university:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
           - "Graduate of the Sally McDonald Barksdale Honors College"
         thesis: "Biometric Authentication, Dynamic Feature Extraction, and User Classification using TouchAnalytics"
+include_research_interests: false
 research_interests: "Application of machine learning to challenging problems."
 professional:
   - company: St. Jude Children's Research Hospital
@@ -29,9 +30,10 @@ professional:
       - title: Senior Software Engineer 
         dates: June 2016 - Present
         description:
-          - Technical lead for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
+          - Technical lead then for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
           - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
           - Evaluate and developed data science techniques to a variety of genomic analysis problems (GWAS, MCMC, Deep Learning, Artificial Intelligence).
+          - Project management experience coordinating St. Jude staff for the St. Jude Cloud project since February 2017.
   - company: Curtsy, Inc.
     location: Palo Alto, CA (remote)
     positions:
