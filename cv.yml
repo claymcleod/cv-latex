@@ -4,7 +4,7 @@ address-one: Redacted.
 address-two: Redacted.
 phone: Redacted.
 email: clay.l.mcleod@gmail.com
-webpage: blog.claymcleod.io
+webpage: claymcleod.io
 university:
   - name: University of Mississippi
     location: University, MS
@@ -33,7 +33,7 @@ professional:
           - Technical lead then for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
           - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
           - Evaluate and developed data science techniques to a variety of genomic analysis problems (GWAS, MCMC, Deep Learning, Artificial Intelligence).
-          - Project management experience coordinating St. Jude staff for the St. Jude Cloud project since February 2017.
+          - Project management experience coordinating St. Jude staff for the St. Jude Cloud project starting February 2017.
   - company: Curtsy, Inc.
     location: Palo Alto, CA (remote)
     positions:
@@ -41,7 +41,7 @@ professional:
         dates: Jan 2016 - May 2016
         description:
           - Consultant for both mobile development (iOS) and server-side development (NodeJS).
-          - Established infrastructure for the company in AWS (previously non-existant).
+          - Established infrastructure for the company in AWS (previously non-existent).
           - Funded by Y Combinator, one of the country's top startup incubators.
   - company: FedEx Services
     location: Memphis, TN
@@ -75,6 +75,12 @@ professional:
         description:
           - Developed a new kind of biometric authentication system for mobile security using machine learning, exponentially decreasing the likelihood of a successful attack on the system.
 honors:
+  career:
+    - St. Jude gold ovation award winner (2x)
+    - Scored in top 5\% of all data scientists tested for Correlation-One's \newline standardized Machine Learning assessment
+    - FedEx Technical Mastery award (x2)
+    - FedEx Director’s Choice Award for best project
+    - FedEx Employee choice award for 2015 best intern project
   university:
     - Full-time Graduate Assistantship
     - Adler Engineering Scholarship (4x)
@@ -87,17 +93,15 @@ honors:
     - Gamma Beta Phi (National Academic Honor Society)
     - Sigma Alpha Lambda  (National Academic Honor Society)
     - National Society for Collegiate Scholars
-  career:
-    - Scored in top 5\% of all data scientists tested for Correlation-One's \newline standardized Machine Learning assessment
-    - FedEx Technical Mastery award (x2)
-    - FedEx Director’s Choice Award for best project
-    - FedEx Employee choice award for 2015 best intern project
   misc:
-    - Featured writer on www.kdnuggets.com (popular datascience blog)
+    - Featured writer on www.kdnuggets.com (popular data science blog)
     - Biometric security thesis featured in Ole Miss Engineering magazine (\href{https://issuu.com/umsoe/docs/olemissengineer2014-15/13}{link})
     - Alpha Tau Omega Philanthropy Chairman, Alumni Relations, \newline Leadership, Scholarship, and Membership Education Committees
     - Voted top 5 fraternity leaders
 
 skills:
-  -  Machine Learning, Data Mining, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Containerization (Docker, Vagrant), Python 2/3, R, NodeJS, Java, Javascript, C++, C#, C, MEAN stack, Web Development, iOS/Android Development.
+  -  Cloud Comptuting, Data Mining, Machine Learning, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Containerization (Docker, Vagrant),  Web Development, iOS/Android Development.
+
+programming_languages:
+  - Python 2/3, R, C++, NodeJS, Java, Javascript, C, Golang, Rust, PERL.
 ---

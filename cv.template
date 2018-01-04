@@ -28,7 +28,7 @@
 \begin{tabular}{@{}p{2in}p{4in}}
 $address-one$ & {\it Phone:} $phone$ \\
 $address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
-& {\it Technical Blog:} \href{http://$webpage$}{$webpage$} \\
+& {\it Website:} \href{http://$webpage$}{$webpage$} \\
 \end{tabular}
 
 $if(include_research_interests)$
@@ -83,21 +83,26 @@ $endfor$
 
 $skills$
 
+\section{\sc Programming Languages}
+
+$programming_languages$
+
 \section{\sc Honors and Awards}
 
 \begin{itemize}
 \setlength\itemsep{-0.5mm}
-\item University-related
-\begin{itemize}
-$for(honors.university)$
-\item[$$\circ$$] $honors.university$
-$endfor$
-\end{itemize}
 
 \item Career-related
 \begin{itemize}
 $for(honors.career)$
 \item[$$\circ$$] $honors.career$
+$endfor$
+\end{itemize}
+
+\item University-related
+\begin{itemize}
+$for(honors.university)$
+\item[$$\circ$$] $honors.university$
 $endfor$
 \end{itemize}
 
