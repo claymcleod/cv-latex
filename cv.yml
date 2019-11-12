@@ -14,26 +14,30 @@ university:
         description:
           - "Master's GPA - 4.0/4.0"
           - "Financed my college education through assistantships and scholarships."
-        thesis: "The Effect of Hyperparameters in the Activation Layers of Deep Neural Networks."
       - title: B. S. Electrical Engineering (emphasis in Computer Engineering)
         date: May 2014
         description:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
           - "Graduate of the Sally McDonald Barksdale Honors College"
-        thesis: "Biometric Authentication, Dynamic Feature Extraction, and User Classification using TouchAnalytics"
 include_research_interests: false
-research_interests: "Application of machine learning to challenging problems."
+research_interests: "Genomics and software engineering"
 professional:
   - company: St. Jude Children's Research Hospital
     location: Memphis, TN
     positions:
+      - title: Manager of Bioinformatics Software Development
+        dates: February 2018 - Present
+        description:
+          - Managed a team of product developers and engineers building core features of St. Jude Cloud.
+          - Directed and coordinated teams across the institution in support of a singular vision for St. Jude Cloud.
+          - Received St. Jude's Amos Jacobs award (employee of the year).
       - title: Senior Software Engineer 
-        dates: June 2016 - Present
+        dates: June 2016 - February 2018
         description:
           - Technical lead then for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
           - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
-          - Evaluate and developed data science techniques to a variety of genomic analysis problems (GWAS, MCMC, Deep Learning, Artificial Intelligence).
           - Project management experience coordinating St. Jude staff for the St. Jude Cloud project starting February 2017.
+          - St. Jude gold ovation award winner (2x).
   - company: Curtsy, Inc.
     location: Palo Alto, CA (remote)
     positions:
@@ -70,38 +74,4 @@ professional:
           - Full time assistantship that financed Master’s degree.
           - Hired and managed 30 teacher’s assistants.
           - Managed 400 student’s lab grades throughout the year.
-      - title: Research Assistant 
-        dates: Fall 2013 - Spring 2014
-        description:
-          - Developed a new kind of biometric authentication system for mobile security using machine learning, exponentially decreasing the likelihood of a successful attack on the system.
-honors:
-  career:
-    - St. Jude gold ovation award winner (2x)
-    - Scored in top 5\% of all data scientists tested for Correlation-One's \newline standardized Machine Learning assessment
-    - FedEx Technical Mastery award (x2)
-    - FedEx Director’s Choice Award for best project
-    - FedEx Employee choice award for 2015 best intern project
-  university:
-    - Full-time Graduate Assistantship
-    - Adler Engineering Scholarship (4x)
-    - Academic Excellence Scholarship (4x)
-    - Chancellor's Honor Roll (4x)
-    - Graduated Cum Laude (undergraduate)
-    - Sally McDonald Barksdale Honors College graduate
-    - Upsilon Pi Epsilon (Computer Science Honor Society)
-    - Pi Mu Epsilon (Mathematics Honor Society)
-    - Gamma Beta Phi (National Academic Honor Society)
-    - Sigma Alpha Lambda  (National Academic Honor Society)
-    - National Society for Collegiate Scholars
-  misc:
-    - Featured writer on www.kdnuggets.com (popular data science blog)
-    - Biometric security thesis featured in Ole Miss Engineering magazine (\href{https://issuu.com/umsoe/docs/olemissengineer2014-15/13}{link})
-    - Alpha Tau Omega Philanthropy Chairman, Alumni Relations, \newline Leadership, Scholarship, and Membership Education Committees
-    - Voted top 5 fraternity leaders
-
-skills:
-  -  Cloud Comptuting, Data Mining, Machine Learning, High Performance Computing, Data Science, Statistical Modeling, Artificial Intelligence, Containerization (Docker, Vagrant),  Web Development, iOS/Android Development.
-
-programming_languages:
-  - Python 2/3, R, C++, NodeJS, Java, Javascript, C, Golang, Rust, PERL.
 ---

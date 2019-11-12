@@ -52,9 +52,6 @@ $if(university.degrees.description)$
 $for(university.degrees.description)$
 \item $university.degrees.description$
 $endfor$
-$if(university.degrees.thesis)$
-\item \textbf{Thesis:} ``\textit{$university.degrees.thesis$}"
-$endif$
 \end{itemize}
 $endif$
 $endfor$
@@ -78,41 +75,6 @@ $endfor$
 \vspace{-3mm}
 $endfor$
 $endfor$
-
-\section{\sc Relevant Skills}
-
-$skills$
-
-\section{\sc Programming Languages}
-
-$programming_languages$
-
-\section{\sc Honors and Awards}
-
-\begin{itemize}
-\setlength\itemsep{-0.5mm}
-
-\item Career-related
-\begin{itemize}
-$for(honors.career)$
-\item[$$\circ$$] $honors.career$
-$endfor$
-\end{itemize}
-
-\item University-related
-\begin{itemize}
-$for(honors.university)$
-\item[$$\circ$$] $honors.university$
-$endfor$
-\end{itemize}
-
-\item Miscellaneous
-\begin{itemize}
-$for(honors.misc)$
-\item[$$\circ$$] $honors.misc$
-$endfor$
-\end{itemize}
-\end{itemize}
 
 \end{resume}
 \end{document}
