@@ -19,59 +19,67 @@ university:
         description:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
           - "Graduate of the Sally McDonald Barksdale Honors College"
+summary: "Senior engineer, product designer, and people leader with experience leading teams of 25+ individuals working in the areas of fullstack application development, genomics, DevOps, product development, and database design."
 include_research_interests: false
 research_interests: "Genomics and software engineering"
 professional:
   - company: St. Jude Children's Research Hospital
     location: Memphis, TN
     positions:
+      - title: Director of Product Development and Engineering
+        dates: February 2020 - Present
       - title: Manager of Bioinformatics Software Development
-        dates: February 2018 - Present
-        description:
-          - Managed a team of product developers and engineers building core features of St. Jude Cloud.
-          - Directed and coordinated teams across the institution in support of a singular vision for St. Jude Cloud.
-          - Received St. Jude's Amos Jacobs award (employee of the year).
+        dates: February 2018 - February 2020
       - title: Senior Software Engineer 
         dates: June 2016 - February 2018
-        description:
-          - Technical lead then for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
-          - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
-          - Project management experience coordinating St. Jude staff for the St. Jude Cloud project starting February 2017.
-          - St. Jude gold ovation award winner (2x).
+        # description:
+        #   - Technical lead then for the "St. Jude Cloud" project, a corporate-wide initiative dedicated to making St. Jude's data and tools available to the world.
+        #   - Created analysis pipelines for next generation sequencing (NGS) data that is used in clinical and research environments on St. Jude's HPC environment.
+        #   - Project management experience coordinating St. Jude staff for the St. Jude Cloud project starting February 2017.
+        #   - St. Jude gold ovation award winner (2x).
+    description:
+      - Built and managed a team of 25+ dedicated and 60+ non-dedicated engineers, designers, and product developers building the pediatric cancer data sharing ecosystem, [St. Jude Cloud](https://stjude.cloud). Learn more about the St. Jude Cloud ecosystem and the applications contained within at our [recent redesign blog post](https://www.stjude.cloud/announcements/st-jude-cloud-restructure).
+      - Analyzed, harmonized, and maintained the largest whole-genome sequence repository in the world, including providing access to ~1.5Pb of genomics data to 230+ labs across the world in pursuit of cures for children afflicted with catastrophic diseases.
+      - Designed and launched an ecosystem of applications which is access by more than 3,000 pediatric cancer researchers every week from around the world.
+      - Served as an expert individual contributor and then built and guided teams to be excellent in the areas of product design, fullstack web development, genomic analysis development, database design, cloud infrastructure, and devops.
+      - Received the 2019 Amos Jacobs award (employee of the year), the highest award given to employees at St. Jude Children's Research Hospital.
   - company: Curtsy, Inc.
     location: Palo Alto, CA (remote)
     positions:
-      - title: Software Consultant
+      - title: Software Engineering Consultant
         dates: Jan 2016 - May 2016
-        description:
-          - Consultant for both mobile development (iOS) and server-side development (NodeJS).
-          - Established infrastructure for the company in AWS (previously non-existent).
-          - Funded by Y Combinator, one of the country's top startup incubators.
+    description:
+      - Contributed to multiple projects within the company spanning mobile (iOS), server-side development (NodeJS), and standing up cloud infrastructure in AWS (previously non-existent).
+      - Funded by Y Combinator, one of the country's top startup incubators.
   - company: FedEx Services
     location: Memphis, TN
     positions:
-      - title: Software Analyst Intern
+      - title: Software Engineering Intern
         dates: Summer 2015
-        description:
-          - Built a native, internal mobile application for iOS (Swift) and Android (Java).
-          - Created a scalable backend server with NodeJS, ExpressJS, and MongoDB.
-          - Created a proprietary machine learning server/path optimization server written in Python with open-source tools such as scikit-learn and pandas.
-          - Recipient of the FedEx Technical Mastery award (x2) and the Director’s Choice Award for best project. Employee choice award for 2015 best intern project.
-  - company: Cooper-McLeod Technology, LLC
-    location: Memphis, TN
-    positions:
-      - title: Co-Founder
-        dates: January 2015 - Present
-        description:
-          - Sole electrical and software engineer for a company focused on providing technological innovation to the construction industry.
-          - Complete native mobile app on iPhone (Swift), website and server written on the MEAN stack (MongoDB, ExpressJS, AngularJS, NodeJS).
-  - company: University of Mississippi
-    location: University, MS
-    positions:
-      - title: Teacher's Assistant/Head Teacher’s Assistant
-        dates: Fall 2014 - Spring 2016
-        description:
-          - Full time assistantship that financed Master’s degree.
-          - Hired and managed 30 teacher’s assistants.
-          - Managed 400 student’s lab grades throughout the year.
+    description:
+      - Built a mobile application for optimizing delivery routes for drivers for both iPhone (iOS) and Android (Java) devices with a scalable backend server written in NodeJS, ExpressJS, and MongoDB.
+      - Created a proprietary machine learning server/path optimization server written in Python with open-source tools such as scikit-learn and pandas.
+      - Recipient of the FedEx Technical Mastery award (x2) and the Director’s Choice Award for best project. Employee choice award for 2015 best intern project.
+  # - company: University of Mississippi
+  #   location: University, MS
+  #   positions:
+  #     - title: Teacher's Assistant/Head Teacher’s Assistant
+  #       dates: Fall 2014 - Spring 2016
+  #   description:
+  #     - Full time assistantship that financed Master’s degree.
+  #     - Hired and managed 30 teacher’s assistants.
+  #     - Managed 400 student’s lab grades throughout the year.
+skills:
+  - category: "Frontend Development"
+    description: "Vue, React, Blade, Javascript, Typescript" 
+  - category: "Backend Development"
+    description: "Ruby, Ruby on Rails, PHP, Laravel, Javascript, Typescript, NodeJS" 
+  - category: "Command Line Tool Development"
+    description: "Python, Golang, Rust" 
+  - category: "Database Design"
+    description: "PostgreSQL, MySQL, MongoDB" 
+  - category: "DevOps"
+    description: "Microsoft Azure, Google Cloud Platform, Amazon Web Services, Terraform, Terragrunt, Kubernetes, Helm, Splunk"
+  - category: "Genomics"
+    description: "Development of analysis pipelines for next-generation sequencing data"
 ---

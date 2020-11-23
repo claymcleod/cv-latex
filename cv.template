@@ -31,12 +31,38 @@ $address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
 & {\it Website:} \href{http://$webpage$}{$webpage$} \\
 \end{tabular}
 
+$if(summary)$
+\vspace{-3mm}
+\section{\sc Summary}
+$summary$
+\vspace{-3mm}
+$endif$
+
 $if(include_research_interests)$
 $if(research_interests)$
 \section{\sc Research Interests}
 $research_interests$
 $endif$
 $endif$
+
+\section{\sc Professional Experience}
+
+$for(professional)$
+{\bf $professional.company$} — $professional.location$\\
+$for(professional.positions)$
+{\em $professional.positions.title$} \hfill {\bf $professional.positions.dates$}\\
+$endfor$
+\vspace{-3mm}
+$if(professional.description)$
+\begin{itemize}
+\setlength\itemsep{-0.5mm}
+$for(professional.description)$
+\item $professional.description$
+$endfor$
+\end{itemize}
+$endif$
+\vspace{-3mm}
+$endfor$
 
 \section{\sc Education}
 $for(university)$
@@ -58,23 +84,14 @@ $endfor$
 \end{list1}
 $endfor$
 
-\vspace{-5mm}
-\section{\sc Professional Experience}
-
-$for(professional)$
-{\bf $professional.company$ } - $professional.location$\\
-$for(professional.positions)$
-{\em $professional.positions.title$} \hfill {\bf $professional.positions.dates$}\\
+$if(skills)$
+\section{\sc Skills}
 \vspace{-3mm}
-\begin{itemize}
-\setlength\itemsep{-0.5mm}
-$for(professional.positions.description)$
-\item $professional.positions.description$
+$for(skills)$
+{\bf{$skills.category$}.} $skills.description$\newline
 $endfor$
-\end{itemize}
 \vspace{-3mm}
-$endfor$
-$endfor$
+$endif$
 
 \end{resume}
 \end{document}
