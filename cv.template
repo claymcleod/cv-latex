@@ -1,7 +1,19 @@
 \documentclass[margin,line]{res}
+
+%===============================================================================
+% Packages
+%===============================================================================
+
 \usepackage{multicol}
 \usepackage{hyperref}
 \usepackage{enumitem}
+
+%===============================================================================
+% Fonts
+%===============================================================================
+
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
 
 \topmargin -0.5in
 \textheight 10in
@@ -22,76 +34,76 @@
 
 
 \begin{document}
-\name{Clay McLeod}
+\name{Clay McLeod (\href{mailto:clay.l.mcleod@gmail.com}{clay.l.mcleod@gmail.com}; \href{https://github.com/claymcleod}{https://github.com/claymcleod})}
 \begin{resume}
-\section{\sc Contact Information}
-\begin{tabular}{@{}p{2in}p{4in}}
-$address-one$ & {\it Phone:} $phone$ \\
-$address-two$ & {\it Email:} \href{mailto:$email$}{$email$} \\
-& {\it Website:} \href{http://$webpage$}{$webpage$} \\
-\end{tabular}
+  $if(include.contact_info)$
+  \section{Contact}
+  \begin{tabular}{@{}p{4in}}
+    {\it Website:} \\
+  \end{tabular}
+  $endif$
 
-$if(summary)$
-\vspace{-3mm}
-\section{\sc Summary}
-$summary$
-\vspace{-3mm}
-$endif$
+  $if(summary)$
+  \vspace{-3mm}
+  \section{Summary}
+  $summary$
+  \vspace{-3mm}
+  $endif$
 
-$if(include_research_interests)$
-$if(research_interests)$
-\section{\sc Research Interests}
-$research_interests$
-$endif$
-$endif$
+  $if(include.research_interests)$
+  $if(research_interests)$
+  \section{Research Interests}
+  $research_interests$
+  $endif$
+  $endif$
 
-\section{\sc Professional Experience}
+  \section{Professional Experience}
 
-$for(professional)$
-{\bf $professional.company$} — $professional.location$\\
-$for(professional.positions)$
-{\em $professional.positions.title$} \hfill {\bf $professional.positions.dates$}\\
-$endfor$
-\vspace{-3mm}
-$if(professional.description)$
-\begin{itemize}
-\setlength\itemsep{-0.5mm}
-$for(professional.description)$
-\item $professional.description$
-$endfor$
-\end{itemize}
-$endif$
-\vspace{-3mm}
-$endfor$
+  $for(professional)$
+  {\bf $professional.company$} — $professional.location$\\
+  $for(professional.positions)$
+  {\em $professional.positions.title$} \hfill {\bf $professional.positions.dates$}\\
+  $endfor$
+  \vspace{-3mm}
+  $if(professional.description)$
+  \begin{itemize}
+    \setlength\itemsep{-0.5mm}
+    $for(professional.description)$
+    \item $professional.description$
+          $endfor$
+  \end{itemize}
+  $endif$
+  \vspace{-3mm}
+  $endfor$
 
-\section{\sc Education}
-$for(university)$
-{\bf $university.name$}, $university.location$\\
-\vspace*{-.1in}
-\begin{list1}
-$for(university.degrees)$
-\item[] $university.degrees.title$ \hfill {\bf $university.degrees.date$}
-$if(university.degrees.description)$
-\vspace{-1mm}
-\begin{itemize}
-\setlength\itemsep{-0.5mm}
-$for(university.degrees.description)$
-\item $university.degrees.description$
-$endfor$
-\end{itemize}
-$endif$
-$endfor$
-\end{list1}
-$endfor$
+  \section{Education}
+  $for(university)$
+  {\bf $university.name$}, $university.location$\\
+  \vspace*{-.1in}
+  \begin{list1}
+    $for(university.degrees)$
+    \item[] $university.degrees.title$ \hfill {\bf $university.degrees.date$}
+    $if(university.degrees.description)$
+    \vspace{-1mm}
+    \begin{itemize}
+      \setlength\itemsep{-0.5mm}
+      $for(university.degrees.description)$
+      \item $university.degrees.description$
+            $endfor$
+    \end{itemize}
+    $endif$
+    $endfor$
+  \end{list1}
+  $endfor$
 
-$if(skills)$
-\section{\sc Skills}
-\vspace{-3mm}
-$for(skills)$
-{\bf{$skills.category$}.} $skills.description$\newline
-$endfor$
-\vspace{-3mm}
-$endif$
+  $if(skills)$
+  \section{Skills}
+  \vspace{-3mm}
+  $for(skills)$
+  {\bf{$skills.category$}.} $skills.description$\newline
+  $endfor$
+  \vspace{-3mm}
+  $endif$
 
 \end{resume}
 \end{document}

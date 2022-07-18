@@ -1,10 +1,6 @@
 ---
-name: Clay McLeod
-address-one: Redacted.
-address-two: Redacted.
-phone: Redacted.
 email: clay.l.mcleod@gmail.com
-webpage: claymcleod.io
+webpage: claymcleod.dev
 university:
   - name: University of Mississippi
     location: University, MS
@@ -18,9 +14,11 @@ university:
         date: May 2014
         description:
           - "Major GPA - 3.81/4.0, Overall GPA - 3.66/4.0"
-          - "Graduate of the Sally McDonald Barksdale Honors College"
-summary: "Senior engineer, product designer, and people leader with experience leading teams of 25+ individuals working in the areas of fullstack application development, genomics, DevOps, product development, and database design."
-include_research_interests: false
+          - "Graduate of the Sally McDonald Barksdale Honors College."
+summary: "Product and engineering people leader with 18 years of software development experience. Specialized in cloud computing, high-performance computing, web development, product development, and genomics. St. Jude Children's Research Hospital employee of the year (2019)."
+include:
+  research_interests: false
+  contact_info: false
 research_interests: "Genomics and software engineering"
 professional:
   - company: St. Jude Children's Research Hospital
@@ -38,20 +36,12 @@ professional:
         #   - Project management experience coordinating St. Jude staff for the St. Jude Cloud project starting February 2017.
         #   - St. Jude gold ovation award winner (2x).
     description:
-      - Built and managed a team of 25+ dedicated and 60+ non-dedicated engineers, designers, and product developers building the pediatric cancer data sharing ecosystem, [St. Jude Cloud](https://stjude.cloud). Learn more about the St. Jude Cloud ecosystem and the applications contained within at our [recent redesign blog post](https://www.stjude.cloud/announcements/st-jude-cloud-restructure).
-      - Analyzed, harmonized, and maintained the largest whole-genome sequence repository in the world, including providing access to ~1.5Pb of genomics data to 230+ labs across the world in pursuit of cures for children afflicted with catastrophic diseases.
-      - Designed and launched an ecosystem of applications which is access by more than 3,000 pediatric cancer researchers every week from around the world.
+      - Built and managed a team of 25+ dedicated and 60+ non-dedicated engineers, designers, and product developers building the pediatric cancer data sharing ecosystem, [St. Jude Cloud](https://stjude.cloud). Learn more about the St. Jude Cloud by reading [our recent paper in Cancer Discovery](https://aacrjournals.org/cancerdiscovery/article/11/5/1082/666431/St-Jude-Cloud-A-Pediatric-Cancer-Genomic-Data).
+      - Analyzed, harmonized, and maintained the largest whole-genome sequence repository in the world, including providing access to ~1.5Pb of genomics data to 195+ labs across the world in pursuit of cures for children afflicted with catastrophic diseases.
+      - Designed and launched an ecosystem of applications which is accessed by more than 3,000 pediatric cancer researchers every week from around the world.
       - Served as an expert individual contributor and then built and guided teams to be excellent in the areas of product design, fullstack web development, genomic analysis development, database design, cloud infrastructure, and devops.
-      - Received the 2019 Amos Jacobs award (employee of the year), the highest award given to employees at St. Jude Children's Research Hospital.
-  - company: Curtsy, Inc.
-    location: Palo Alto, CA (remote)
-    positions:
-      - title: Software Engineering Consultant
-        dates: Jan 2016 - May 2016
-    description:
-      - Contributed to multiple projects within the company spanning mobile (iOS), server-side development (NodeJS), and standing up cloud infrastructure in AWS (previously non-existent).
-      - Funded by Y Combinator, one of the country's top startup incubators.
-  - company: FedEx Services
+      - Received the 2019 Amos Jacobs award (employee of the year), the highest award given to employees at St. Jude Children's Research Hospital. Received two additional gold ovation awards during my time at St. Jude.
+  - company: FedEx
     location: Memphis, TN
     positions:
       - title: Software Engineering Intern
@@ -63,7 +53,7 @@ professional:
   # - company: University of Mississippi
   #   location: University, MS
   #   positions:
-  #     - title: Teacher's Assistant/Head Teacher’s Assistant
+  #     - title: Head Teacher’s Assistant
   #       dates: Fall 2014 - Spring 2016
   #   description:
   #     - Full time assistantship that financed Master’s degree.
